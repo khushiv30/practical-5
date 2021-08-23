@@ -1,0 +1,41 @@
+body{
+    background-color: thistle;
+    display: block;
+    margin: 8px;
+}
+u{
+    text-decoration: underline;
+}
+
+h1{
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 12px;
+    color: grey;
+    font-family: cursive;
+    font-size: 2em;
+    font-weight: bold;
+    background-color: rgb(219, 219, 203);
+}
+
+th,td{
+    text-align: center;
+    padding: 10px;
+}
+
+table,th,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+
+}
+
+td{
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+table{
+    text-indent: initial;
+    border-spacing: 2px;
+}
